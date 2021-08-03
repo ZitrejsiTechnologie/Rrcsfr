@@ -1,0 +1,14 @@
+Vysvětleny adresáře
+/src složka obsahuje většinu zdrojového kódu
+/dist složka obsahuje vestavěnou knihovnu
+/examples složka obsahuje příklady k testování během vývoje
+-----------------------------------------------------------
+src/image-targetobsahuje všechny algoritmy AR. (O těchto algoritmech bude k dispozici více podrobností)
+
+src/controller.jsslouží jako rozhraní API pro externí aplikace, které používají algoritmy AR. Zpracovává také řídí tok aplikací.
+
+src/aframe.jsje obálka rozšíření AFRAME. Používámcontroller.js
+
+src/compiler.js je API pro kompilaci cílového obrazu.
+-----------------------------------------------------------
+
